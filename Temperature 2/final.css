@@ -3,8 +3,12 @@ body {
     margin: 20px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .container {
-    max-width: 400px;
+    width: 450px;
     margin: auto;
     padding: 20px;
     border: 1px solid #ddd;
@@ -14,9 +18,10 @@ body {
 
 input, button {
     padding: 10px;
-    width: 100%;
+    width: 95%;
     margin: 5px 0;
     font-size: 16px;
+
 }
 
 button {
@@ -25,6 +30,7 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
+    width: 100%;
 }
 
 button:hover {

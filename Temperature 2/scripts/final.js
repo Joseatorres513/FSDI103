@@ -1,5 +1,15 @@
 console.log("final.js");
 
+// Get the values with prompt
+let startpoint=prompt("Enter starting temperature");
+let endpoint=prompt("Enter ending temperature");
+let scale=prompt("Enter scale");
+
+// Get elementbyID
+document.getElementById("startTemp").value=startpoint;
+document.getElementById("endTemp").value=endpoint;
+document.getElementById("scale").value=scale;
+
 function convertTemperatureRange() {
     // Get input values
     const startValue = parseFloat(document.getElementById("startTemp").value);
